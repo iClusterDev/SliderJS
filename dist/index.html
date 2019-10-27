@@ -11,18 +11,22 @@
   <body>
     <h1>SliderJS</h1>
     <div class="wrapper">
-      <div class="slider">
-        <div id="slide1" class="slide">1</div>
-        <div id="slide2" class="slide">2</div>
-        <div id="slide3" class="slide">3</div>
+      <div id="slider" class="slider">
+        <div id="slide1" class="slide"><img src="./img/img1-min.jpg" alt="" /></div>
+        <div id="slide2" class="slide"><img src="./img/img2-min.jpg" alt="" /></div>
+        <div id="slide3" class="slide"><img src="./img/img3-min.jpg" alt="" /></div>
       </div>
-      <button class="slider-btn">prev</button>
-      <button class="slider-btn">next</button>
+      <button id="prev-btn" class="slider-btn">prev</button>
+      <button id="next-btn" class="slider-btn">next</button>
     </div>
 
     <script src="js/slider.min.js"></script>
     <script>
-      console.log("init here");
+      const slider = Object.create(HorizontalSlider).initialize(
+        document.querySelector("#slider"),
+        document.querySelector("#next-btn"),
+        document.querySelector("#prev-btn")
+      );
     </script>
   </body>
 </html>
