@@ -2,31 +2,44 @@
 
 A tiny slider component built with Vanilla JavaScript.
 
-<!-- ### Prerequisites
-
-To use Devkit-Static you need to have [Node.js](https://nodejs.org/en/) installed.
-
 ### Installing
 
-Download the .zip file and extract the content into your working directory.
+- Download the .zip file.
+- Copy slider.min.css into your working directory and add the link reference to the markup.
+- Copy slider.min.js into your working directory and add the script reference to the markup.
 
-Now run:
+### Usage
 
+Add a container with the class .slider and the slides with the class .slide:
+
+```html
+<div id="slider" class="slider">
+  <div class="slide">slide1</div>
+  <div class="slide">slide2</div>
+  <div class="slide">slide3</div>
+</div>
 ```
-npm install
+
+Add a next and prev button triggers with the class .slider-btn:
+
+```html
+<div id="prev-btn" class="slider-btn">prev</div>
+<div id="next-btn" class="slider-btn">next</div>
 ```
 
-After all the packages are installed run:
+Initialize the slider component:
 
+```html
+<script>
+  const slider = Object.create(HorizontalSlider).initialize(
+    document.querySelector("#slider"),
+    document.querySelector("#next-btn"),
+    document.querySelector("#prev-btn")
+  );
+</script>
 ```
-npm start
-```
 
-In your working directory a dist directory will be automatically generated. All your work should be done in the src directory. On every file save in the src directory, *.scss will get compiled into style.min.css, *js into app.min.js. All the images get transferred automatically into the dist directory.
-The dist forder is constantly whatched. Don't touch it!
-
-You are now all set.
-Happy Dev! -->
+You are all set!
 
 ## Contributing
 
