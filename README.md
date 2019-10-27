@@ -39,6 +39,14 @@ Initialize the slider component:
 </script>
 ```
 
+For a vertical slider use VerticalSlider instead:
+
+```html
+<script>
+  const slider = Object.create(VerticalSlider).initialize(...);
+</script>
+```
+
 You are all set!
 
 ## Contributing
