@@ -21,6 +21,9 @@ h1 {
   font-size: 3.998em;
   font-weight: 300;
   margin: 2.75rem 0 1rem;
+  @media screen and (max-width: 640px) {
+    font-size: 2.827em;
+  }
 }
 
 .wrapper {
@@ -29,6 +32,9 @@ h1 {
   max-width: 600px;
   max-height: 400px;
   box-shadow: -25px 25px 50px 12.5px $dark-color;
+  @media screen and (max-width: 640px) {
+    min-height: 200px;
+  }
 }
 
 img {
@@ -91,5 +97,9 @@ footer {
         opacity: 0.5;
       }
     }
+  }
+
+  @media screen and (max-width: 640px) {
+    margin: auto 0 0.5rem;
   }
 }
