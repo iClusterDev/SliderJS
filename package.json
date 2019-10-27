@@ -1,7 +1,7 @@
 {
-  "name": "devkit-static",
+  "name": "slider-js",
   "version": "1.0.0",
-  "description": "Sass Boilerplate to work on static webpages",
+  "description": "A tiny slider component built with Vanilla JavaScript",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iClusterDev/devkit-static.git"
+    "url": "git+https://github.com/iClusterDev/SliderJS.git"
   },
   "keywords": [
     "sass",
@@ -39,7 +39,7 @@
   "author": "iClusterDev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iClusterDev/devkit-static/issues"
+    "url": "https://github.com/iClusterDev/SliderJS/issues"
   },
-  "homepage": "https://github.com/iClusterDev/devkit-static#readme"
+  "homepage": "https://github.com/iClusterDev/SliderJS#readme"
 }

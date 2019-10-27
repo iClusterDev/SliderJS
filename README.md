@@ -1,8 +1,8 @@
-# Devkit-Static
+# SliderJS
 
-A Sass project boilerplate, using Gulp4 and BrowserSync. Ideal for building static webpages.
+A tiny slider component built with Vanilla JavaScript.
 
-### Prerequisites
+<!-- ### Prerequisites
 
 To use Devkit-Static you need to have [Node.js](https://nodejs.org/en/) installed.
 
@@ -26,7 +26,7 @@ In your working directory a dist directory will be automatically generated. All 
 The dist forder is constantly whatched. Don't touch it!
 
 You are now all set.
-Happy Dev!
+Happy Dev! -->
 
 ## Contributing
 
