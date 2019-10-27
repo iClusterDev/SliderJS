@@ -1,0 +1,45 @@
+{
+  "name": "devkit-static",
+  "version": "1.0.0",
+  "description": "Sass Boilerplate to work on static webpages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.5.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iClusterDev/devkit-static.git"
+  },
+  "keywords": [
+    "sass",
+    "gulp",
+    "browser-sync",
+    "browserify",
+    "babelify",
+    "babel"
+  ],
+  "author": "iClusterDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iClusterDev/devkit-static/issues"
+  },
+  "homepage": "https://github.com/iClusterDev/devkit-static#readme"
+}
