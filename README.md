@@ -4,7 +4,7 @@ A lightweight slider component built with Vanilla JavaScript.
 
 ### Live Demo
 
-A live demo of the slider is available [here]()
+A live demo of the slider is available [here](https://slider-js.netlify.com/)
 
 ### Installing
 
