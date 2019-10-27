@@ -52,7 +52,7 @@ const css = done => {
 
 const JS_SRC = `src/js/`;
 const JS_DEST = `./dist/js/`;
-const JS_FILES = ["app.js"];
+const JS_FILES = ["slider.js"];
 function js(done) {
   JS_FILES.map(file => {
     return browserify({
