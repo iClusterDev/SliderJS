@@ -1,6 +1,10 @@
 # SliderJS
 
-A tiny slider component built with Vanilla JavaScript.
+A lightweight slider component built with Vanilla JavaScript.
+
+### Live Demo
+
+A live demo of the slider is available [here]()
 
 ### Installing
 
