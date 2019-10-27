@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+
+$main-color: rgb(235, 72, 72);
+$text-color: #fff;
+$dark-color: rgba(0, 0, 0, 0.15);
+
 body {
   margin: 0;
   padding: 1rem;
@@ -6,6 +12,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: $main-color;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: $text-color;
+  font-size: 3.998em;
+  font-weight: 300;
+  margin: 2.75rem 0 1rem;
 }
 
 .wrapper {
@@ -13,11 +28,68 @@ body {
   height: 100%;
   max-width: 600px;
   max-height: 400px;
+  box-shadow: -25px 25px 50px 12.5px $dark-color;
 }
 
-.slide img {
+img {
   width: 100%;
   height: 100%;
   object-position: center;
   object-fit: cover;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  #prev-btn,
+  #next-btn {
+    border-radius: 4px;
+    padding: 0.75rem 2rem;
+    margin: 0.5rem;
+    color: $text-color;
+    border: solid 1px $text-color;
+    background-color: transparent;
+    transition: all 0.2s;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      color: $main-color;
+      background-color: $text-color;
+
+      &.disabled {
+        background-color: transparent;
+        color: $text-color;
+      }
+    }
+  }
+}
+
+footer {
+  margin: auto 0 2rem;
+  .copy {
+    color: $text-color;
+    opacity: 0.5;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      margin: 0 0.5rem;
+      i {
+        font-size: 32px;
+        color: $text-color;
+        opacity: 0.5;
+      }
+    }
+  }
 }
