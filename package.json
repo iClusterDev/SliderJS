@@ -4,8 +4,8 @@
   "description": "A tiny slider component built with Vanilla JavaScript",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx gulp"
+    "start": "npx gulp",
+    "build": "npx gulp build"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
