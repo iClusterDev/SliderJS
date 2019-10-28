@@ -24,6 +24,11 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "Firefox ESR"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iClusterDev/SliderJS.git"
