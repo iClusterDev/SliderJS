@@ -93,4 +93,14 @@ const Slider = {
   }
 };
 
-export default Slider;
+const HorizontalSlider = Object.create(Slider);
+HorizontalSlider.initialize = function(sliderElement, nextBtn, prevBtn) {
+  this.init(sliderElement, nextBtn, prevBtn, "left");
+};
+
+const VerticalSlider = Object.create(Slider);
+VerticalSlider.initialize = function(sliderElement, nextBtn, prevBtn) {
+  this.init(sliderElement, nextBtn, prevBtn, "top");
+};
+
+export { HorizontalSlider, VerticalSlider };
