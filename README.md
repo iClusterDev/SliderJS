@@ -6,7 +6,7 @@ A lightweight slider component built with Vanilla JavaScript.
 
 A live demo of the slider is available [here](https://slider-js.netlify.com/)
 
-### Installing
+<!-- ### Installing
 
 - Download the .zip file.
 - Copy slider.min.css into your working directory and add the link reference to the markup.
@@ -51,7 +51,7 @@ For a vertical slider use VerticalSlider instead:
 </script>
 ```
 
-You are all set!
+You are all set! -->
 
 ## Contributing
 
